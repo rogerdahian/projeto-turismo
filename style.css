@@ -17,4 +17,23 @@
   --accent-orange: #e95e10;
   --accent-pink: #e5245e;
   --accent-purple: #591b98;
+
+  /* FONT FAMYLY */
+  --font-famyly: "Open Sans", sans-serif;
+
+  /* SIZE */
+  --h1-size: 36px;
+  --h2-size: 32px;
+  --h3-size: 28px;
+  --headline-size: 16px;
+  --paragraph: 16px;
+  --subtitle: 16px;
+
+  /* WEIGHT */
+  --h1-wht: bold;
+  --h2-wht: bold;
+  --h3-wht: bold;
+  --headline-wht: bold;
+  --paragraph-wht: "regular";
+  --subtitle: italic;
 }
