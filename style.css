@@ -26,8 +26,8 @@
   --h2-size: 32px;
   --h3-size: 28px;
   --headline-size: 16px;
-  --paragraph: 16px;
-  --subtitle: 16px;
+  --paragraph-size: 16px;
+  --subtitle-size: 16px;
 
 
 
@@ -37,8 +37,90 @@
   --h3-wht: bold;
   --headline-wht: bold;
   --paragraph-wht: "regular";
-  --subtitle: italic;
 }
 *{
   font-family: var(--font-famyly);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+h1{
+  font-size: var(--h1-size);
+  font-weight: var(--h1-wht);
+  color: var(--text-primary);
+}
+
+h2{
+  font-size: var(--h2-size);
+  font-weight: var(--h2-wht);
+  color: var(--text-primary) ;
+}
+
+h3{
+  font-size: var(--h3-size);
+  font-weight: var(--h3-wht);
+  color: var(--text-primary);
+}
+
+body{
+  width: 1280px;
+  margin: auto;
+  background: var(--background-default);
+}
+
+#container {
+  background: var(--background-default);
+  border: 1px solid red;
+  width: 1120px;
+  margin: 88px auto;
+}
+
+.par1 {
+ font-size: var(--headline-size);
+ color: var(--text-headline);
+ font-weight: var(--headline-wht);
+ height: 22px;
+}
+
+#section1 {
+  height: 79px;
+}
+
+#section1 h1 {
+  height: 49px;
+  margin-top: 8px;
+}
+
+#section2 {
+  margin: 40px 0;
+  height: 729px;
+}
+
+#section2 img {
+  height: 660px;
+  width: 100%;
+}
+
+#section2 p {
+  color: var(--text-secondary);
+  font-size: var(--subtitle-size);
+  font-style: italic;
+  margin-top: 24px;
+  text-align: center;
+}
+
+img {
+  border-radius: 28px;
+  width: 100%;
+  height: 350px;
+  
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: var(--border-primary) ;
+}
+
