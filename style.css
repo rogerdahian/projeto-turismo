@@ -29,6 +29,8 @@
   --paragraph: 16px;
   --subtitle: 16px;
 
+
+
   /* WEIGHT */
   --h1-wht: bold;
   --h2-wht: bold;
@@ -36,4 +38,7 @@
   --headline-wht: bold;
   --paragraph-wht: "regular";
   --subtitle: italic;
+}
+*{
+  font-family: var(--font-famyly);
 }
