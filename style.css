@@ -71,9 +71,8 @@ body{
 
 #container {
   background: var(--background-default);
-  border: 1px solid red;
   width: 1120px;
-  margin: 88px auto;
+  margin: 88px auto 0;
 }
 
 .par1 {
@@ -81,6 +80,13 @@ body{
  color: var(--text-headline);
  font-weight: var(--headline-wht);
  height: 22px;
+}
+
+.cor-paragraph {
+  color: var(--text-secondary);
+  font-size: var(--paragraph-size);
+  font-weight: var(--paragraph-wht);
+
 }
 
 #section1 {
@@ -110,17 +116,101 @@ body{
   text-align: center;
 }
 
+
 img {
   border-radius: 28px;
   width: 100%;
   height: 350px;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.156);
   
 }
 
 .divider {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
   background-color: var(--border-primary) ;
 }
 
+.divider2 {
+  width: 100%;
+  height: 1px;
+  margin: 40px;
+  background-color: var(--border-primary) ;
+}
+
+#section3  {
+ margin-top: 64px;
+}
+
+#section3 .pgf1 {
+  margin-bottom: 2px;
+}
+
+#section3 .pgf2{
+  margin-bottom: 64px;
+}
+
+li{
+  list-style-position: inside;
+  font-weight: bold;
+
+}
+.lista{
+  padding-left: 10px;
+  color: var(--text-primary);
+  font-size: var(--h3-size);
+  font-weight: var(--h3-wht);
+  margin: 20px 0px 4px 0px;
+  
+}
+
+ul{
+  padding-left: 10px;
+}
+
+ul li::marker {
+  color: var(--text-secondary);
+}
+
+.l1 {
+  color: var(--accent-blue);
+}
+
+.l2{
+  color: var(--accent-purple);
+}
+
+.l3{
+  color: var(--accent-pink);
+}
+
+.l4{
+  color: var(--accent-orange);
+}
+#section5 {
+  margin: 48px 0px;
+}
+
+span{
+  color: var(--text-secondary);
+  font-size: var(--paragraph-size);
+  font-weight: bold;
+}
+
+.p-final {
+    text-align: center;
+}
+
+footer{
+  margin: 73px 0px 48px 0;
+}
+footer p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--text-secondary);
+} 
+
+footer img{
+  width: 16px;
+  height: 16px;
+}
